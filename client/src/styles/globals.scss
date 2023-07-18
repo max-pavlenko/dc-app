@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --light-gray: #4e5058;
+  --dark-gray: 43, 45, 49;
+  --violet-rgb: 71, 85, 224;
+  --cyan-rgb: 126, 205, 237;
+  --orange-rgb: 252, 168, 120;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: var(--light-gray);
+  font-family: 'Roboto', sans-serif;
+}
+
+*::selection {
+  background-color: rgb(var(--violet-rgb));
+  color: rgb(230, 230, 230);
+}
+
+* {
+  transition: .2s all ease-in-out, .4s max-height ease-in-out;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px transparent;
+  }
+
+  &:focus:focus-visible {
+    box-shadow: 0 0 0 2.5px rgb(var(--cyan-rgb));
+    border-radius: 5px;
+  }
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  background-color: var(--light-gray);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background: rgb(var(--violet-rgb));
+}

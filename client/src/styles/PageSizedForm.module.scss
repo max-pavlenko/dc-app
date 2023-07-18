@@ -1,0 +1,20 @@
+.pageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(var(--cyan-rgb), 1);
+}
+
+.formBox {
+  max-width: 700px;
+  z-index: 100;
+  width: 100%;
+  background-color: var(--light-gray);
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin-inline: 15px;
+}
