@@ -1,0 +1,15 @@
+export enum SocketEvents {
+   updateFriendInvitations = 'updateFriendInvitations',
+   updateFriends = 'updateFriends',
+   updateOnlineUsers = 'updateOnlineUsers',
+   getDirectChatHistory = 'getDirectChatHistory',
+   getUserTypingMessage = 'getUserTypingMessage',
+   sendNewDirectMessage = 'sendNewDirectMessage',
+   updateDirectChatHistory = 'updateDirectChatHistory',
+   userTypingMessage = 'userTypingMessage',
+   leaveRoom = 'leaveRoom',
+   createRoom = 'createRoom',
+   updateActiveRooms = 'updateActiveRooms',
+   joinRoom = 'joinRoom',
+   RTCSignal = 'RTCSignal',
+}
