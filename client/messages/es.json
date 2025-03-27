@@ -1,0 +1,98 @@
+{
+  "Common": {
+    "greeting": "¡Ten un buen {timeOfDay}, {username}!",
+    "timeOfDay": {
+      "morning": "mañana",
+      "afternoon": "tarde",
+      "evening": "noche"
+    },
+    "you": "Tú",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "email": "Correo electrónico",
+    "logOut": "Cerrar sesión",
+    "account": "Cuenta",
+    "settings": "Ajustes",
+    "conversations": "Conversaciones",
+    "inviteFriend": "Invitar a un amigo",
+    "send": "Enviar",
+    "generate": "Generar",
+    "newPassword": "Nueva contraseña",
+    "confirmPassword": "Confirmar contraseña"
+  },
+  "FieldError": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Correo electrónico inválido",
+    "minLength": "El campo debe tener al menos {minLength} caracteres",
+    "maxLength": "El campo debe tener como máximo {maxLength} caracteres",
+    "min": "El valor del campo debe ser al menos {min}",
+    "max": "El valor del campo debe ser como máximo {max}",
+    "pattern": "Formato inválido",
+    "unique": "Este valor ya está en uso",
+    "passwordsMatch": "Las contraseñas no coinciden"
+  },
+  "Notification": {
+    "Success": {
+      "login": "Has iniciado sesión correctamente",
+      "register": "Te has registrado correctamente",
+      "friendAdded": "El amigo ha sido invitado",
+      "copyID": "El ID ha sido copiado al portapapeles",
+      "friendRoomCreated": "La sala de conversación ha sido creada"
+    },
+    "Error": {
+      "localStream": "No se puede acceder al flujo de medios locales"
+    }
+  },
+  "Pages": {
+    "Home": {
+      "title": "La nueva era de Concord.",
+      "cta": "Explorar"
+    },
+    "Login": {
+      "title": "¡Bienvenido de nuevo!",
+      "description": "¿Qué tal hasta ahora?",
+      "needAnAccount": "¿Necesitas una cuenta?",
+      "createOne": "Crea una",
+      "forgotPassword": "¿Olvidaste tu contraseña?"
+    },
+    "ForgotPassword": {
+      "title": "¿Olvidó su contraseña?",
+      "description": "Ingrese su correo electrónico y le enviaremos un enlace para restablecer su contraseña",
+      "submit": "Enviar enlace para restablecer",
+      "rememberPassword": "¿Recordó su contraseña?",
+      "login": "Iniciar sesión",
+      "emailSentTitle": "Revisar su correo electrónico",
+      "emailSentDescription": "Le hemos enviado un enlace para restablecer su contraseña a su correo electrónico",
+      "backToLogin": "Volver al inicio de sesión"
+    },
+    "ResetPassword": {
+      "title": "Restablecer contraseña",
+      "description": "Ingrese su nueva contraseña a continuación",
+      "submit": "Restablecer contraseña",
+      "successTitle": "Restablecimiento de contraseña completo",
+      "successDescription": "Su contraseña se ha restablecido correctamente",
+      "backToLogin": "Volver al inicio de sesión",
+      "verifying": "Verificando enlace",
+      "verifyingDescription": "Espere mientras verificamos su enlace de restablecimiento",
+      "invalidToken": "Enlace inválido o caducado",
+      "invalidTokenDescription": "El enlace de restablecimiento de contraseña no es válido o ha caducado",
+      "redirecting": "Redirigiendo"
+    },
+    "Register": {
+      "title": "¡Qué bueno verte!",
+      "description": "Regístrate gratis",
+      "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+      "logIn": "Inicia sesión",
+      "submit": "Registrarse"
+    },
+    "Dashboard": {
+      "title": "Elige una conversación para comenzar",
+      "addFriend": "Añadir un amigo",
+      "noConversations": "Aún no hay conversaciones",
+      "addConversation": "Añadir una conversación",
+      "beginningOfConversation": "Este es el comienzo de tu conversación con {friend}",
+      "someoneIsTyping": "{friend} está escribiendo...",
+      "roomInfo": "Creador: {creator}. Conectado: {participants} personas"
+    }
+  }
+}

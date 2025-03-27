@@ -1,0 +1,98 @@
+{
+  "Common": {
+    "greeting": "Guten {timeOfDay}, {username}!",
+    "timeOfDay": {
+      "morning": "Morgen",
+      "afternoon": "Nachmittag",
+      "evening": "Abend"
+    },
+    "you": "Du",
+    "username": "Benutzername",
+    "password": "Passwort",
+    "email": "E-Mail",
+    "logOut": "Ausloggen",
+    "account": "Konto",
+    "settings": "Einstellungen",
+    "conversations": "Unterhaltungen",
+    "inviteFriend": "Freund einladen",
+    "send": "Senden",
+    "generate": "Generieren",
+    "newPassword": "Neues Passwort",
+    "confirmPassword": "Passwort bestätigen"
+  },
+  "FieldError": {
+    "required": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Ungültige E-Mail",
+    "minLength": "Feld muss mindestens {minLength} Zeichen lang sein",
+    "maxLength": "Feld darf höchstens {maxLength} Zeichen lang sein",
+    "min": "Feldwert muss mindestens {min} betragen",
+    "max": "Feldwert darf höchstens {max} betragen",
+    "pattern": "Ungültiges Format",
+    "unique": "Dieser Wert ist bereits vergeben",
+    "passwordsMatch": "Passwörter stimmen nicht überein"
+  },
+  "Notification": {
+    "Success": {
+      "login": "Sie haben sich erfolgreich angemeldet",
+      "register": "Sie haben sich erfolgreich registriert",
+      "friendAdded": "Freund wurde eingeladen",
+      "copyID": "ID wurde in die Zwischenablage kopiert",
+      "friendRoomCreated": "Dein Freund {username} hat den Raum erstellt. Mach mit!"
+    },
+    "Error": {
+      "localStream": "Kein Zugriff auf lokalen Medienstream möglich"
+    }
+  },
+  "Pages": {
+    "Home": {
+      "title": "Das neue Zeitalter von Concord.",
+      "cta": "Erkunden"
+    },
+    "Login": {
+      "title": "Willkommen zurück!",
+      "description": "Was gibt's Neues?",
+      "needAnAccount": "Benötigen Sie ein Konto?",
+      "createOne": "Erstellen Sie eins",
+      "forgotPassword": "Passwort vergessen?"
+    },
+    "ForgotPassword": {
+      "title": "Passwort vergessen",
+      "description": "Geben Sie Ihre E-Mail-Adresse ein, und wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts",
+      "submit": "Senden Sie den Link zum Zurücksetzen",
+      "rememberPassword": "Erinnern Sie sich an Ihr Passwort?",
+      "login": "Einloggen",
+      "emailSentTitle": "E-Mail gesendet",
+      "emailSentDescription": "Überprüfen Sie Ihre E-Mails, um das Zurücksetzen Ihres Passworts abzuschließen",
+      "backToLogin": "Zurück zum Login"
+    },
+    "ResetPassword": {
+      "title": "Passwort zurücksetzen",
+      "description": "Geben Sie Ihr neues Passwort ein",
+      "submit": "Passwort zurücksetzen",
+      "successTitle": "Passwort zurücksetzen abgeschlossen",
+      "successDescription": "Ihr Passwort wurde erfolgreich zurückgesetzt",
+      "backToLogin": "Zurück zum Login",
+      "verifying": "Überprüfen",
+      "verifyingDescription": "Bitte warten Sie, während wir Ihren Zurücksetzungslink überprüfen",
+      "invalidToken": "Ungültiger Zurücksetzungslink",
+      "invalidTokenDescription": "Der Link zum Zurücksetzen des Passworts ist ungültig oder abgelaufen",
+      "redirecting": "Umleiten"
+    },
+    "Register": {
+      "title": "Schön, dich zu sehen!",
+      "description": "Kostenlos registrieren",
+      "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
+      "logIn": "Einloggen",
+      "submit": "Registrieren"
+    },
+    "Dashboard": {
+      "title": "Wählen Sie eine Unterhaltung, um zu beginnen",
+      "addFriend": "Freund hinzufügen",
+      "noConversations": "Noch keine Unterhaltungen",
+      "addConversation": "Unterhaltung hinzufügen",
+      "beginningOfConversation": "Dies ist der Anfang Ihrer Unterhaltung mit {friend}",
+      "someoneIsTyping": "{friend} schreibt...",
+      "roomInfo": "Ersteller: {creator}. Verbunden: {participants} Personen"
+    }
+  }
+}

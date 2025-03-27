@@ -2,7 +2,7 @@ import Joi from "joi";
 import exp from "express";
 import auth from "../middleware/auth";
 import {validator} from "./auth";
-import {acceptFriendInvite, rejectFriendInvite, sendFriendInvite} from "../controllers/friendInvitations";
+import {acceptFriendInvite, rejectFriendInvite, sendFriendInvite} from "../controllers/friend-invitations";
 
 const router = exp.Router();
 

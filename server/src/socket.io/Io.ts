@@ -1,4 +1,4 @@
-import {IO} from "../socketServer";
+import {IO} from "../socket-server";
 
 export class SocketIo {
     private readonly io: IO;

@@ -1,0 +1,99 @@
+{
+  "Common": {
+    "greeting": "Have a good {timeOfDay}, {username}!",
+    "timeOfDay": {
+      "morning": "morning",
+      "afternoon": "afternoon",
+      "evening": "evening"
+    },
+    "you": "You",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "logOut": "Log out",
+    "account": "Account",
+    "settings": "Settings",
+    "conversations": "Conversations",
+    "inviteFriend": "Invite a friend",
+    "send": "Send",
+    "generate": "Generate",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password"
+  },
+  "FieldError": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email",
+    "minLength": "Field must be at least {minLength} character(s) long",
+    "maxLength": "Field must be at most {maxLength} character(s) long",
+    "min": "Field value must be at least {min}",
+    "max": "Field value must be at most {max}",
+    "pattern": "Invalid format",
+    "unique": "This value is already taken",
+    "passwordsMatch": "Passwords do not match"
+  },
+  "Notification": {
+    "Success": {
+      "login": "You have successfully logged in",
+      "register": "You have successfully registered",
+      "friendAdded": "Friend has been invited",
+      "copyID": "ID has been copied to clipboard",
+      "friendRoomCreated": "Your friend {username} has created the room. Join the huddle!"
+    },
+    "Error": {
+     "localStream": "Cannot get an access to local media stream"
+    }
+  },
+  "Pages": {
+    "Home": {
+      "title": "The new era of Concord.",
+      "cta": "Explore"
+    },
+    "Login": {
+      "title": "Welcome back!",
+      "description": "What's up so far?",
+      "needAnAccount": "Need an account?",
+      "createOne": "Create a one",
+      "submit": "Log in",
+      "forgotPassword": "Forgot password?"
+    },
+    "ForgotPassword": {
+      "title": "Forgot Password",
+      "description": "Enter your email and we'll send you a link to reset your password",
+      "submit": "Send Reset Link",
+      "rememberPassword": "Remember your password?",
+      "login": "Sign in",
+      "emailSentTitle": "Check Your Email",
+      "emailSentDescription": "We've sent a password reset link to your email address",
+      "backToLogin": "Back to Login"
+    },
+    "ResetPassword": {
+      "title": "Reset Password",
+      "description": "Enter your new password below",
+      "submit": "Reset Password",
+      "successTitle": "Password Reset Complete",
+      "successDescription": "Your password has been reset successfully",
+      "backToLogin": "Back to Login",
+      "verifying": "Verifying Link",
+      "verifyingDescription": "Please wait while we verify your reset link",
+      "invalidToken": "Invalid or Expired Link",
+      "invalidTokenDescription": "The password reset link is invalid or has expired",
+      "redirecting": "Redirecting..."
+    },
+    "Register": {
+      "title": "Good to see ya!",
+      "description": "Sign up for free",
+      "alreadyHaveAccount": "Already have an account?",
+      "logIn": "Log in",
+      "submit": "Sign up"
+    },
+    "Dashboard": {
+      "title": "Choose a conversation to start with",
+      "addFriend": "Add a friend",
+      "noConversations": "No conversations yet",
+      "addConversation": "Add a conversation",
+      "beginningOfConversation": "This is the beginning of your conversation with {friend}",
+      "someoneIsTyping": "{friend} is typing...",
+      "roomInfo": "Creator: {creator}. Connected: {participants} people"
+    }
+  }
+}

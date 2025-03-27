@@ -1,6 +1,6 @@
 import authRoutes  from './routes/auth';
 import friendInvitationsRoutes from './routes/friendInvitations';
-import createSocketServer from './socketServer';
+import createSocketServer from './socket-server';
 import http from "http";
 import cors from "cors";
 import dotenv from "dotenv";

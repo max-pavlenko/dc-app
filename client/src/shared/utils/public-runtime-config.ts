@@ -1,0 +1,6 @@
+const PUBLIC_RUNTIME_CONFIG = {
+    API_URL: process.env.API_URL,
+    GOOGLE_CLIENT_ID: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID,
+};
+
+export default PUBLIC_RUNTIME_CONFIG;

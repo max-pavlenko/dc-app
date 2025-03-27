@@ -1,0 +1,100 @@
+{
+  "Common": {
+    "greeting": "Гарного {timeOfDay}, {username}!",
+    "timeOfDay": {
+      "morning": "ранку",
+      "afternoon": "дня",
+      "evening": "вечора"
+    },
+    "you": "Ви",
+    "username": "Ім'я користувача",
+    "password": "Пароль",
+    "email": "Електронна пошта",
+    "logOut": "Вийти",
+    "account": "Акаунт",
+    "settings": "Налаштування",
+    "conversations": "Розмови",
+    "inviteFriend": "Запросити друга",
+    "send": "Надіслати",
+    "generate": "Згенерувати",
+    "newPassword": "Новий пароль",
+    "confirmPassword": "Підтвердити пароль"
+  },
+  "FieldError": {
+    "required": "Це поле обов'язкове",
+    "invalidEmail": "Неправильний електронна пошта",
+    "minLength": "Мінімальна кількість символів у полі має бути {minLength}",
+    "maxLength": "Максимальна кількість символів у полі має бути {maxLength}",
+    "min": "Значення поля має бути принаймні від {min} включно",
+    "max": "Значення поля має бути не більше {max}",
+    "pattern": "Неправильний формат",
+    "unique": "Це значення вже зайняте",
+    "passwordsMatch": "Паролі не співпадають"
+  },
+  "Notification": {
+    "Success": {
+      "login": "Ви успішно увійшли",
+      "register": "Ви успішно зареєструвалися",
+      "friendAdded": "Друга було запрошено",
+      "copyID": "ID було скопійовано",
+      "friendRoomCreated": "Ваш друг {username} створив кімнату. Приєднуйтесь до гурту!"
+    },
+    "Error": {
+      "localStream": "Не вдалося отримати доступ до локального потоку"
+    }
+  },
+  "Pages": {
+    "Home": {
+      "title": "Нова ера Concord.",
+      "cta": "Дослідити"
+    },
+    "Login": {
+      "title": "Ласкаво просимо назад!",
+      "description": "Що нового?",
+      "needAnAccount": "Потрібен акаунт?",
+      "createOne": "Створити",
+      "submit": "Увійти",
+      "forgotPassword": "Забули пароль?"
+    },
+    "ForgotPassword": {
+      "title": "Забув пароль",
+      "description": "Введіть свою електронну адресу, і ми надішлемо вам посилання для зміни пароля",
+      "submit": "Надіслати посилання для скидання",
+      "rememberPassword": "Пам'ятаєте свій пароль?",
+      "login": "Увійти",
+      "emailSentTitle": "Перевірте свою електронну пошту",
+      "emailSentDescription": "Ми надіслали посилання для зміни пароля на вашу електронну адресу",
+      "backToLogin": "Назад до входу"
+    },
+    "ResetPassword": {
+      "title": "Скинути пароль",
+      "description": "Введіть ваш новий пароль нижче",
+      "submit": "Скинути пароль",
+      "successTitle": "Скидання пароля завершено",
+      "successDescription": "Ваш пароль успішно скинуто",
+      "backToLogin": "Назад до входу",
+      "verifying": "Перевірка посилання",
+      "verifyingDescription": "Зачекайте, поки ми перевіримо ваше посилання для скидання",
+      "invalidToken": "Недійсне або прострочене посилання",
+      "invalidTokenDescription": "Посилання для зміни пароля недійсне або термін його дії минув",
+      "redirecting": "Перенаправляємо..."
+    },
+    "Register": {
+      "title": "Раді бачити вас!",
+      "description": "Зареєструйтесь безкоштовно",
+      "alreadyHaveAccount": "Вже є акаунт?",
+      "logIn": "Увійти",
+      "submit": "Зареєструватися"
+    },
+
+    "Dashboard": {
+      "title": "Оберіть розмову для початку",
+      "addFriend": "Додати друга",
+      "noConversations": "Ще немає розмов",
+      "addConversation": "Додати розмову",
+      "beginningOfConversation": "Це початок вашої розмови з {friend}",
+      "someoneIsTyping": "{friend} is typing...",
+      "roomInfo": "Створив: ${creator}. Підключено: ${participants} людей"
+    }
+  }
+}
