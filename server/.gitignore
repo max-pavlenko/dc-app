@@ -8,6 +8,8 @@
 
 # production
 /build
+.env
+!.env.example
 
 # misc
 .DS_Store
@@ -21,3 +23,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 .idea
+
